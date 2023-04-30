@@ -1,0 +1,36 @@
+{
+  "name": "ifuji-form-api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "lint": "eslint \"app.js\" \"src/**/*.js\"",
+    "lint:fix": "eslint \"app.js\" \"src/**/*.js\" --fix"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "express-jwt": "^7.7.7",
+    "http-errors": "~1.6.3",
+    "http-status-codes": "^2.2.0",
+    "jade": "~1.11.0",
+    "json-and-xlsx": "^2.1.2",
+    "json2csv": "^5.0.7",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^2.6.7",
+    "nodemailer": "^6.8.0",
+    "sequelize": "^6.25.8",
+    "sqlite3": "^5.1.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
